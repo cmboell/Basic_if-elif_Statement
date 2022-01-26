@@ -18,12 +18,12 @@ user_choice = input('Which subscription would you like?\nEnter One of the Follow
 """
 if else statement to decide what price to return to the user
 if statement capitalizes input so user can put lower or uppercase input and still get proper info on subscription
-if user input is P or Platinum then if statement prints out premium price
+if user input is P then if statement prints out platinum price
 conditional
 """
 if user_choice.capitalize() == 'P':
     print('Platinum subscription is $60.00 a month')
-# else if the user input is G or Gold then it prints out the gold price
+# else if the user input is G then it prints out the gold price
 elif user_choice.capitalize() == 'G':
     print('Gold subscription is $50.00 a month')
 # else if the user input is S then it prints out the silver price
